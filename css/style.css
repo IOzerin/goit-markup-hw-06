@@ -768,7 +768,7 @@ footer address a {
   width: 16px;
   height: 15px;
   display: block;
-  left: -24px;
+  left: -25px;
   top: 4px;
   background: white;
   background-image: url(../images/not-accepted.svg);
@@ -778,6 +778,11 @@ footer address a {
 
 .accept-policy-checkbox:checked + .accept-policy-label::before {
   background-image: url(../images/accepted.svg);
+}
+
+.accept-policy-checkbox:focus {
+  width: 16px;
+  height: 15px;
 }
 
 .accept-policy label {
